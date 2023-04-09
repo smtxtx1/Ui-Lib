@@ -2325,7 +2325,7 @@ do
     })
 
     -- menu
-    library:define('smthub', function(meta, properties)
+    library:define('menu', function(meta, properties)
         local menu = setmetatable({}, meta)
         properties     = properties or {}
         menu.text      = properties.text or 'menu'
